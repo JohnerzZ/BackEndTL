@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "652844971395",
+    "firebase_url": "https://testing-tl-android-app-7704d.firebaseio.com",
+    "project_id": "testing-tl-android-app-7704d",
+    "storage_bucket": "testing-tl-android-app-7704d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:652844971395:android:94815f86a9ca40a09ff2b6",
+        "android_client_info": {
+          "package_name": "ntua.hci.toyloy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "652844971395-qgvlh7p8gfulq3on1nu2orpbiogprils.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBeg6gdrQlYDUd6VhNuXWN3jWebPsIQozc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "652844971395-qgvlh7p8gfulq3on1nu2orpbiogprils.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

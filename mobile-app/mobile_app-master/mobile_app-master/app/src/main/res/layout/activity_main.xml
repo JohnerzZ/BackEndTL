@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Spinner
+        android:id="@+id/spinnerCountry"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:entries="@array/Country"
+        android:spinnerMode="dialog"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dividerup"
+        app:layout_constraintBottom_toTopOf="@id/date_from"/>
+
+    <Spinner
+        android:id="@+id/spinnerTime"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:entries="@array/Time"
+        android:spinnerMode="dialog"
+        app:layout_constraintBottom_toTopOf="@+id/dividerdown"
+        app:layout_constraintTop_toBottomOf="@id/date_from"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/spinnerform"/>
+
+    <Button
+        android:id="@+id/btn_search"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:enabled="true"
+        android:text="@string/btnSearch"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.25"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <View
+        android:id="@+id/dividerdown"
+        android:layout_width="0dp"
+        android:layout_height="2dp"
+        android:background="?android:attr/listDivider"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toTopOf="@id/btn_search"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <Spinner
+        android:id="@+id/spinnerform"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:entries="@array/Form"
+        android:spinnerMode="dialog"
+        app:layout_constraintBottom_toTopOf="@+id/dividerdown"
+        app:layout_constraintTop_toBottomOf="@id/date_from"
+        app:layout_constraintRight_toLeftOf="@id/spinnerTime"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+
+    <EditText
+        android:id="@+id/date_from"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/txtFrom"
+        android:inputType="date"
+        android:autofillHints="2020"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/spinnerform"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerCountry" />
+
+
+    <TextView
+        android:id="@+id/wellcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtWelcome"
+        android:textSize="25sp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="169dp"
+        tools:layout_editor_absoluteY="43dp" />
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/txtInfo"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:gravity="center"
+        android:textSize="16sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/dividerup"
+        app:layout_constraintTop_toBottomOf="@id/wellcome"
+        tools:layout_editor_absoluteX="172dp"
+        tools:layout_editor_absoluteY="141dp" />
+
+    <View
+        android:id="@+id/dividerup"
+        android:layout_width="0dp"
+        android:layout_height="2dp"
+        android:background="?android:attr/listDivider"
+        android:layout_marginTop="250dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="253dp" />
+
+    <ImageView
+        android:id="@+id/log_out_main"
+        android:layout_width="26dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:clickable="true"
+        android:focusable="true"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/log_out" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

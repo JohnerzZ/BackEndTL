@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">WattErloo</string>
+
+    <!-- Strings related to Main -->
+    ///// Text/////
+    <string name="txtFrom">From Date</string>
+    <string name="txtTo">To Date</string>
+    <string name="txtWelcome">Welcome</string>
+    <string name="txtInfo">You need to choose the country and the interval you want to learn more about the consumed energy</string>
+
+
+    ///// Button /////
+    <string name="btnSearch">Search</string>
+
+    ///// Spinner /////
+    <string-array name="Country">
+        <item>Austria</item>
+        <item>Greece</item>
+        <item>Germany</item>
+        <item>France</item>
+        <item>Italy</item>
+        <item>Cyprus</item>
+    </string-array>
+
+    <string-array name="Form">
+        <item>Array</item>
+        <item>Ravdo</item>
+    </string-array>
+
+    <string-array name="Time">
+        <item>15 min</item>
+        <item>30 min</item>
+        <item>45 min</item>
+    </string-array>
+
+    <!-- Strings related to Login -->
+    <string name="txtEmail">Email</string>
+    <string name="txtPassword">Password</string>
+    <string name="welcome">Welcome </string>
+    <string name="txtLogo">WattErloo </string>
+    <string name="invalid_username">Incorrect Email</string>
+    <string name="invalid_password">Incorrect Password</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="title_activity_login">Log in</string>
+    <string name="action_log_in_short">Log in</string>
+    <string name="btnLogin">Log in</string>
+    <string name="txtIntro">Fill your log in information</string>
+
+    <!-- Strings related to Ravdo and Table -->
+    <string name="btnNewSearch">New Search</string>
+    <string name="btnRavdoForm">Ravdo Form</string>
+    <string name="btnGraphForm">Array Form</string>
+    <string name="txtResults1">The consumed energy in \n</string>
+    <string name="txtResults2">\nfrom  </string>
+    <string name="txtResults3"> to </string>
+    <string name="txtResults4">\nis shown above</string>
+
+
+</resources>
