@@ -1,6 +1,6 @@
 # TL19-template
 
-Template repository, used for NTUA/ECE Software Engineering, 2019-2020
+Repository, used for NTUA/ECE Software Engineering, 2019-2020
 
 Το αρχείο αυτό περιέχει οδηγίες για το στήσιμο του git repository που θα
 χρησιμοποιήσετε.  Στο τέλος, θα το αντικαταστήσετε με το `README.md` που
